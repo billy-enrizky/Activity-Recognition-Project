@@ -223,7 +223,7 @@ def predict_single_action(video_file_path, SEQUENCE_LENGTH):
     
 def main():
     st.image("activityrecog.jpeg")
-    st.title("Action Recognition Streamlit App")
+    st.title("Human Activity Recognition")
 
     # Input field for YouTube video URL
     youtube_url = st.sidebar.text_input("Enter YouTube Video URL:")
